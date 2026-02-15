@@ -1,19 +1,17 @@
-class Banner {
+class OOPSBannerApp {
 
-    void printBanner() {
+    // Constructor
+    OOPSBannerApp() {
         System.out.println("***********************");
-        System.out.println("      OOPS BANNER      ");
+        System.out.println("     OOPS BANNER       ");
+        System.out.println("   Using Constructor   ");
         System.out.println("***********************");
     }
-}
-
-public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        Banner b = new Banner();   // object creation
-        b.printBanner();           // method call
+        // object creation
+        OOPSBannerApp obj = new OOPSBannerApp();
 
     }
 }
-
