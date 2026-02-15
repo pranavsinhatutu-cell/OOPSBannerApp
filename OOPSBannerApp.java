@@ -8,3 +8,14 @@ public class OOPSBannerApp {
 
     }
 }
+
+public class OOPSBannerApp {
+
+    public static void main(String[] args) {
+
+        Banner b = new Banner();   // object creation
+        b.printBanner();           // method call
+
+    }
+}
+
