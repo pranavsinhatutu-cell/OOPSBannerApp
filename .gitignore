@@ -1,0 +1,11 @@
+# Compiled files
+*.class
+
+# IDE files
+.vscode/
+.idea/
+
+# Build folders
+out/
+build/
+bin/
