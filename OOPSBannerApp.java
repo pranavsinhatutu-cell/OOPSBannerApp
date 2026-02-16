@@ -10,9 +10,6 @@ public class OOPSBannerApp {
     }
 
     public static void main(String[] args) {
-
-        // object creation
-        OOPSBannerApp obj = new OOPSBannerApp();
-
+        System.out.println("OOPS");
     }
 }
