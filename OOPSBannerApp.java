@@ -2,6 +2,7 @@ public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         String[] O = {
                 " ***** ",
                 "*     *",
@@ -32,6 +33,12 @@ public class OOPSBannerApp {
                 " ***** "
         };
 
+=======
+        String[] O = buildO();
+        String[] P = buildP();
+        String[] S = buildS();
+
+>>>>>>> feature/UC6
         String[] banner = {
                 String.join("  ", O[0], O[0], P[0], S[0]),
                 String.join("  ", O[1], O[1], P[1], S[1]),
@@ -42,9 +49,54 @@ public class OOPSBannerApp {
                 String.join("  ", O[6], O[6], P[6], S[6])
         };
 
+<<<<<<< HEAD
      
+=======
+>>>>>>> feature/UC6
         for (String line : banner) {
             System.out.println(line);
         }
     }
+<<<<<<< HEAD
 }
+=======
+
+    // Static helper methods
+
+    static String[] buildO() {
+        return new String[]{
+                " ***** ",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*     *",
+                " ***** "
+        };
+    }
+
+    static String[] buildP() {
+        return new String[]{
+                "****** ",
+                "*     *",
+                "*     *",
+                "****** ",
+                "*      ",
+                "*      ",
+                "*      "
+        };
+    }
+
+    static String[] buildS() {
+        return new String[]{
+                " ***** ",
+                "*      ",
+                "*      ",
+                " ****  ",
+                "     * ",
+                "     * ",
+                " ***** "
+        };
+    }
+}
+>>>>>>> feature/UC6
